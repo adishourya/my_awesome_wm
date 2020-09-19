@@ -1,0 +1,77 @@
+configuration {
+  modi: "drun";
+
+  click-to-exit: true;
+  show-icons: true;
+  cycle: false;
+  sidebar-mode: false;
+  m: "-1";
+  hide-scrollbar: true;
+  scroll-method: 0;
+  drun-display-format: " {name}";
+  m: "primary";
+}
+
+* {
+  font: "SF Mono 10";
+
+  text-color: #ffffff;
+  text-color-selected: #282c34;
+
+  background-color: #1a1c22;
+  transparent-dark: rgba(30,35,40,0.88);
+  element-alternate-shading: #B96526;
+  element-selected-color: #FFFFFF;
+}
+
+#window {
+  location: north;
+  width: 100%;
+  transparency: "background";
+}
+
+#mainbox {
+  orientation: horizontal;
+  spacing: 0;
+}
+
+#inputbar {
+  children: [prompt, entry];
+  width: 10%;
+  spacing: 0;
+}
+
+#prompt {
+  color: #88C0D0;
+  highlight: bold orange;
+  format: bold;
+
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px 15px 11px 15px;
+}
+
+#entry {
+  padding: 10px 15px 11px 15px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#listview {
+  spacing: 0;
+  // TODO: replace with `layout: horizontal;` when element width calculation is fixed
+  columns: 12;
+  lines: 1;
+}
+
+#element {
+  padding: 10px 15px;
+  spacing: 0;
+}
+
+#element selected {
+  background-color: rgba(255,255,255,0.1);
+  text-color: white;
+}
+
+#element-icon {
+  size: 16;
+}
