@@ -13,7 +13,7 @@ configuration {
 }
 
 * {
-  font: "SF Mono 10";
+  font: "GTPressuraMono Nerd Font 10";
 
   text-color: #ffffff;
   text-color-selected: #282c34;

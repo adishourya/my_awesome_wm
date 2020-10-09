@@ -1,5 +1,5 @@
 configuration {
-    font:                           "SF Mono Regular 10";
+    font:                           "GTPressuraMono Nerd Font Regular 10";
     show-icons:                     true;
     drun-display-format:            "{name}";
     fullscreen:                     false;
@@ -50,7 +50,7 @@ button {
 }
 
 entry {
-    font:                           "SF Mono Regular 11";
+    font:                           "GTPressuraMono Nerd Font Regular 11";
     background-color:               @background;
     text-color:                     @foreground;
     expand:                         true;

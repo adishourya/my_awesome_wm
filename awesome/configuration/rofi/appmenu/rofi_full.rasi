@@ -1,5 +1,5 @@
 configuration {
-    font:                           "SF Mono 10";
+    font:                           "GTPressuraMono Nerd Font 10";
     show-icons:                     true;
     drun-display-format:            "{name}";
     fullscreen:                     true;

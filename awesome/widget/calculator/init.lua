@@ -30,7 +30,7 @@ local calculator_screen = wibox.widget {
 	{
 		id = 'calcu_screen',
 		text = '0',
-		font = 'SF Mono Regular 20',
+		font = 'GTPressuraMono Nerd Font Regular 20',
 		align = 'right',
 		valign = 'center',
 		widget = wibox.widget.textbox,
@@ -207,7 +207,7 @@ local build_button_widget = function(text, rcp, rad)
 		{
 			id = 'btn_name',
 			text =  value,
-			font = 'SF Mono 12',
+			font = 'GTPressuraMono Nerd Font 12',
 			align = 'center',
 			valign = 'center',
 			widget = wibox.widget.textbox,

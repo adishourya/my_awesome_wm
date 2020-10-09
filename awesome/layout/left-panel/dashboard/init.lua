@@ -23,7 +23,7 @@ return function(_, panel)
 			},
 			{
 				text = 'Global Search',
-				font = 'SF Mono Regular 12',
+				font = 'GTPressuraMono Nerd Font Regular 12',
 				align = 'left',
 				valign = 'center',
 				widget = wibox.widget.textbox
@@ -75,7 +75,7 @@ return function(_, panel)
 			},
 			{
 				text = 'End work session',
-				font = 'SF Mono Regular 12',
+				font = 'GTPressuraMono Nerd Font Regular 12',
 				align = 'left',
 				valign = 'center',
 				widget = wibox.widget.textbox

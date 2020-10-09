@@ -16,7 +16,7 @@ local frame_status = nil
 
 local action_name = wibox.widget {
 	text = 'Blur Effects',
-	font = 'SF Mono Regular 11',
+	font = 'GTPressuraMono Nerd Font Regular 11',
 	align = 'left',
 	widget = wibox.widget.textbox
 }

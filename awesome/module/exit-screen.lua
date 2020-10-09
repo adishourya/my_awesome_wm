@@ -16,7 +16,7 @@ local widget_icon_dir = config_dir .. 'configuration/user-profile/'
 
 local greeter_message = wibox.widget {
 	markup = 'Choose wisely!',
-	font = 'SF Mono UltraLight 48',
+	font = 'GTPressuraMono Nerd Font UltraLight 48',
 	align = 'center',
 	valign = 'center',
 	widget = wibox.widget.textbox
@@ -24,7 +24,7 @@ local greeter_message = wibox.widget {
 
 local profile_name = wibox.widget {
 	markup = 'user@hostname',
-	font = 'SF Mono Regular 12',
+	font = 'GTPressuraMono Nerd Font Regular 12',
 	align = 'center',
 	valign = 'center',
 	widget = wibox.widget.textbox

@@ -51,7 +51,7 @@ local locker = function(s)
 	local uname_text = wibox.widget {
 		id = 'uname_text',
 		markup = '$USER',
-		font = 'SF Mono Bold 17',
+		font = 'GTPressuraMono Nerd Font Bold 17',
 		align = 'center',
 		valign = 'center',
 		widget = wibox.widget.textbox
@@ -60,7 +60,7 @@ local locker = function(s)
 	local uname_text_shadow = wibox.widget {
 		id = 'uname_text_shadow',
 		markup = '<span foreground="#00000066">' .. '$USER' .. "</span>",
-		font = 'SF Mono Bold 17',
+		font = 'GTPressuraMono Nerd Font Bold 17',
 		align = 'center',
 		valign = 'center',
 		widget = wibox.widget.textbox
@@ -69,7 +69,7 @@ local locker = function(s)
 	local caps_text = wibox.widget {
 		id = 'uname_text',
 		markup = 'Caps Lock is on',
-		font = 'SF Mono Italic 10',
+		font = 'GTPressuraMono Nerd Font Italic 10',
 		align = 'center',
 		valign = 'center',
 		opacity = 0.0,
@@ -78,7 +78,7 @@ local locker = function(s)
 	local caps_text_shadow = wibox.widget {
 		id = 'uname_text',
 		markup = '<span foreground="#00000066">' .. 'Caps Lock is on' .. "</span>",
-		font = 'SF Mono Italic 10',
+		font = 'GTPressuraMono Nerd Font Italic 10',
 		align = 'center',
 		valign = 'center',
 		opacity = 0.0,
@@ -126,18 +126,18 @@ local locker = function(s)
 	)
 
 	local time = wibox.widget.textclock(
-		'<span font="SF Mono Bold 56">%H:%M</span>',
+		'<span font="GTPressuraMono Nerd Font Bold 56">%H:%M</span>',
 		1
 	)
 
 	local time_shadow = wibox.widget.textclock(
-		'<span foreground="#00000066" font="SF Mono Bold 56">%H:%M</span>',
+		'<span foreground="#00000066" font="GTPressuraMono Nerd Font Bold 56">%H:%M</span>',
 		1
 	)
 
 	local wanted_text = wibox.widget {
 		markup = 'INTRUDER ALERT!',
-		font   = 'SF Mono Bold 12',
+		font   = 'GTPressuraMono Nerd Font Bold 12',
 		align  = 'center',
 		valign = 'center',
 		widget = wibox.widget.textbox
@@ -156,7 +156,7 @@ local locker = function(s)
 
 	local wanted_msg = wibox.widget {
 		markup = 'This incident will be reported!',
-		font   = 'SF Mono Regular 10',
+		font   = 'GTPressuraMono Nerd Font Regular 10',
 		align  = 'center',
 		valign = 'center',
 		widget = wibox.widget.textbox
@@ -250,7 +250,7 @@ local locker = function(s)
 
 	local date = wibox.widget {
 		markup = date_value().day .. date_value().ordinal .. ' of ' .. date_value().month,
-		font = 'SF Mono Bold 20',
+		font = 'GTPressuraMono Nerd Font Bold 20',
 		align = 'center',
 		valign = 'center',
 		widget = wibox.widget.textbox
@@ -259,7 +259,7 @@ local locker = function(s)
 	local date_shadow = wibox.widget {
 		markup = "<span foreground='#00000066'>" .. date_value().day .. date_value().ordinal .. " of " ..
 			date_value().month .. "</span>",
-		font = 'SF Mono Bold 20',
+		font = 'GTPressuraMono Nerd Font Bold 20',
 		align = 'center',
 		valign = 'center',
 		widget = wibox.widget.textbox

@@ -10,7 +10,7 @@ local quick_header = wibox.widget
 {
 
 	text = 'Quick Settings',
-	font = 'SF Mono Regular 12',
+	font = 'GTPressuraMono Nerd Font Regular 12',
 	align = 'left',
 	valign = 'center',
 	widget = wibox.widget.textbox

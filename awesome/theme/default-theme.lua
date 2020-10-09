@@ -15,8 +15,8 @@ local theme = {}
 theme.icons = theme_dir .. '/icons/'
 
 -- Font
-theme.font = 'SF Mono Regular 10'
-theme.font_bold = 'SF Mono Bold 10'
+theme.font = 'GTPressuraMono Nerd Font Regular 10'
+theme.font_bold = 'GTPressuraMono Nerd Font Bold 10'
 
 
 -- Menu icon theme
@@ -35,8 +35,8 @@ local awesome_overrides = function(theme)
 
 	-- Foreground
 
-	theme.font = 'SF Mono Regular 10'
-	theme.title_font = 'SF Mono Bold 14'
+	theme.font = 'GTPressuraMono Nerd Font Regular 10'
+	theme.title_font = 'GTPressuraMono Nerd Font Bold 14'
 
 
 	theme.fg_normal = '#ffffffde'
@@ -139,19 +139,18 @@ local awesome_overrides = function(theme)
 	-- Client Decorations
 
 	-- Borders
-	-- theme.border_focus = "#87af87"
-	theme.border_focus = "#88C0d0"
-	theme.border_normal = "#101010"
+	theme.border_focus = "#88c0d0"
+	theme.border_normal = "#1a1d23"
 	theme.border_marked = '#CC9393'
-	theme.border_width = dpi(5)
+	theme.border_width = dpi(2)
 	theme.border_radius = dpi(0)
 
 	-- Decorations
 	theme.client_radius = dpi(0)
-	theme.useless_gap = dpi(4)
+	theme.useless_gap = dpi(2)
 
 	-- Menu
-	theme.menu_font = "SF Mono Regular 11"
+	theme.menu_font = "GTPressuraMono Nerd Font Regular 11"
 	theme.menu_submenu = '' -- ➤
 
 	theme.menu_height = dpi(34)
@@ -189,12 +188,12 @@ local awesome_overrides = function(theme)
 	-- Taglist
 	theme.taglist_bg_empty = theme.background .. '99'
 	theme.taglist_bg_occupied =  theme.background
-	theme.taglist_bg_urgent = '#BF616A'
-	theme.taglist_bg_focus = "#88c0d0"
+	theme.taglist_bg_urgent = '#a3be8c'
+	theme.taglist_bg_focus = "#dbdee9"
 	theme.taglist_spacing = dpi(0)
 	-- Tasklist
 
-	theme.tasklist_font = 'SF Mono Regular 10'
+	theme.tasklist_font = 'GTPressuraMono Nerd Font Regular 10'
 	theme.tasklist_bg_normal = theme.background .. '99'
 	theme.tasklist_bg_focus = theme.background
 	theme.tasklist_bg_urgent = "#BF616A"
@@ -221,8 +220,8 @@ local awesome_overrides = function(theme)
 
 	-- Hotkey popup
 
-	theme.hotkeys_font = 'SF Mono Bold'
-	theme.hotkeys_description_font   = 'SF Mono Regular'
+	theme.hotkeys_font = 'GTPressuraMono Nerd Font Bold'
+	theme.hotkeys_description_font   = 'GTPressuraMono Nerd Font Regular'
 	theme.hotkeys_bg = theme.background
 	theme.hotkeys_group_margin = dpi(20)
 

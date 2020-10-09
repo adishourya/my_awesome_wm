@@ -44,7 +44,7 @@ ruled.notification.connect_signal('request::rules', function()
 	ruled.notification.append_rule {
 		rule       = { urgency = 'critical' },
 		properties = {
-			font        		= 'SF Mono Bold 10',
+			font        		= 'GTPressuraMono Nerd Font Bold 10',
 			bg 					= '#ff0000',
 			fg 					= '#ffffff',
 			margin 				= dpi(16),
@@ -57,7 +57,7 @@ ruled.notification.connect_signal('request::rules', function()
 	ruled.notification.append_rule {
 		rule       = { urgency = 'normal' },
 		properties = {
-			font        		= 'SF Mono Regular 10',
+			font        		= 'GTPressuraMono Nerd Font Regular 10',
 			bg      			= beautiful.transparent,
 			fg 					= beautiful.fg_normal,
 			margin 				= dpi(16),
@@ -70,7 +70,7 @@ ruled.notification.connect_signal('request::rules', function()
 	ruled.notification.append_rule {
 		rule       = { urgency = 'low' },
 		properties = {
-			font        		= 'SF Mono Regular 10',
+			font        		= 'GTPressuraMono Nerd Font Regular 10',
 			bg     				= beautiful.transparent,
 			fg 					= beautiful.fg_normal,
 			margin 				= dpi(16),
@@ -126,7 +126,7 @@ naughty.connect_signal("request::display", function(n)
 					{
 						{
 							id     = 'text_role',
-							font   = 'SF Mono Regular 10',
+							font   = 'GTPressuraMono Nerd Font Regular 10',
 							widget = wibox.widget.textbox
 						},
 						widget = wibox.container.place
@@ -164,7 +164,7 @@ naughty.connect_signal("request::display", function(n)
 												{
 													{
 														markup = n.app_name or 'System Notification',
-														font = 'SF Mono Bold 10',
+														font = 'GTPressuraMono Nerd Font Bold 10',
 														align = 'center',
 														valign = 'center',
 														widget = wibox.widget.textbox

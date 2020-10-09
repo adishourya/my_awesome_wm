@@ -15,7 +15,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 
 	local osd_header = wibox.widget {
 		text = 'Volume',
-		font = 'SF Mono Bold 12',
+		font = 'GTPressuraMono Nerd Font Bold 12',
 		align = 'left',
 		valign = 'center',
 		widget = wibox.widget.textbox
@@ -23,7 +23,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 
 	local osd_value = wibox.widget {
 		text = '0%',
-		font = 'SF Mono Bold 12',
+		font = 'GTPressuraMono Nerd Font Bold 12',
 		align = 'center',
 		valign = 'center',
 		widget = wibox.widget.textbox

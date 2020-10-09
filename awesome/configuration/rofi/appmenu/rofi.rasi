@@ -8,7 +8,7 @@ configuration {
   hide-scrollbar: true;
   disable-history: true;
   modi: "drun,window,combi";
-  font: "SF Mono 12";
+  font: "GTPressuraMono Nerd Font 12";
   drun-display-format: "{name}";
 }
 
@@ -43,7 +43,7 @@ textbox {
 
 entry {
   padding: 10px;
-  font: "SF Mono 20";
+  font: "GTPressuraMono Nerd Font 20";
 }
 
 listview {

@@ -10,7 +10,7 @@ song_info.music_title = wibox.widget {
 		{
 			id = 'title',
 			text = 'title',
-			font = 'SF Mono Bold 10',
+			font = 'GTPressuraMono Nerd Font Bold 10',
 			align  = 'center',
 			valign = 'center',
             left=60,
@@ -37,7 +37,7 @@ song_info.music_artist = wibox.widget {
 		{
 			id = 'artist',
 			text = 'artist',
-			font = 'SF Mono Italic 8',
+			font = 'GTPressuraMono Nerd Font Italic 8',
             left=dpi(24),
             right=dpi(24),
 			align  = 'center',

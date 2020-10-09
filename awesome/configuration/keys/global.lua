@@ -99,7 +99,8 @@ local globalKeys = awful.util.table.join(
         {modkey},
         'w',
         function()
-            awful.spawn('feh --bg-fill -z Pictures/nordic_wallpapers',false)
+            -- awful.spawn('feh --bg-fill -z Pictures/nordic_wallpapers',false)
+            awful.spawn('feh --bg-fill -z Pictures/r_walls',false)
             awful.spawn('notify-send "changed wallpaper"')
         end,
         {description = 'Change Wallpaer', group = 'tag'}

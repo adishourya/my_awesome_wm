@@ -5,8 +5,8 @@ local beautiful = require('beautiful')
 local theme = {}
 
 theme.icons = theme_dir .. '/icons/'
-theme.font = 'SF Mono Regular 10'
-theme.font_bold = 'SF Mono Bold 10'
+theme.font = 'GTPressuraMono Nerd Font Regular 10'
+theme.font_bold = 'GTPressuraMono Nerd Font Bold 10'
 
 
 -- Colorscheme
