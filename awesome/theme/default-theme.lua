@@ -139,15 +139,15 @@ local awesome_overrides = function(theme)
 	-- Client Decorations
 
 	-- Borders
-	theme.border_focus = "#88c0d0"
+	theme.border_focus = "#8E5252"
 	theme.border_normal = "#1a1d23"
-	theme.border_marked = '#CC9393'
-	theme.border_width = dpi(2)
+	theme.border_marked = '#bf616a'
+	theme.border_width = dpi(5)
 	theme.border_radius = dpi(0)
 
 	-- Decorations
 	theme.client_radius = dpi(0)
-	theme.useless_gap = dpi(2)
+	theme.useless_gap = dpi(5)
 
 	-- Menu
 	theme.menu_font = "GTPressuraMono Nerd Font Regular 11"
